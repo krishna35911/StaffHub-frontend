@@ -1,0 +1,9 @@
+<nav class="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand ms-5" href="#">
+        <img src="https://static.thenounproject.com/png/2601595-200.png" alt="" width="50" height="42" class="d-inline-block align-text-top">
+        Staff Hub
+      </a>
+      <button *ngIf="logged" (click)="logout()" class="btn btn-outline-danger fw-bold"><i class="fa-solid fa-power-off me-2"></i>Logout</button>
+    </div>
+  </nav>

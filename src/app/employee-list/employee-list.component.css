@@ -1,0 +1,18 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th, td {
+    border: 1px solid #b1b1ca; 
+  }
+
+  th {
+    background-color: #f2f2f2; 
+    padding: 17px;
+  }
+
+  td{
+    padding: 10px;
+  }
